@@ -139,7 +139,8 @@ input:focus {
     }
 
     .cover {
-        width: 25%;
+        width: 35%;
         height: 65%;
+        padding: 10px;
     }
 }

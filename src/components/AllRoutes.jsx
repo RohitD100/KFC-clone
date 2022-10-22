@@ -7,8 +7,8 @@ import LoginForm from './LoginForm'
 const AllRoutes = () => {
     return (
         <Routes>
-            <Route path="/" element={<Cards />} />
-            <Route path='/products' element={<Home />} />
+            <Route path="/products" element={<Cards />} />
+            <Route path='/' element={<Home />} />
             <Route path="/login" element={<LoginForm />} />
             <Route path='/cart/:id' element={<CardsDetails />} />
         </Routes>
