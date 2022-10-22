@@ -11,6 +11,7 @@ import { DLT } from '../redux/actions/action';
 
 const Header = () => {
     const username = localStorage.getItem('username');
+
     console.log(username)
     const [price, setPrice] = useState(0);
     // console.log(price);

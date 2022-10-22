@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 import GoogleLogin from "react-google-login";
 import { gapi } from "gapi-script";
 import "./loginform.css"
+import { useNavigate } from "react-router-dom";
 
 const LoginForm = () => {
     const [username, setUsername] = useState('')
     const [password, setpassword] = useState('')
-
+    const navigate = useNavigate();
     useEffect(() => {
         function start() {
             gapi.client.init({
@@ -23,6 +24,7 @@ const LoginForm = () => {
     const setData = (e) => {
         localStorage.setItem('username', username)
         localStorage.setItem('password', password)
+        navigate("/");
     }
 
     const popup = (e) => {
