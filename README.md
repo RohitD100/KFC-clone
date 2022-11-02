@@ -1,14 +1,18 @@
-# KFC_WEBSITE_clone
+<h1 align='center'>KFC WEBSITE CLONE </h1>
+<h1 align='center'></h1>
 
-We have clone of KFC ecommerce application. The clone explain each menu item just like real site.
-To maintain the add to cart functionality, I have used reducer to manage the state.
-## Features:
-  #### Sign-in based on OTP
-  #### Show food based on Menu categories
-  #### Dynamic add to cart
-  #### Checkout payment
-  #### Add more item
-  #### Responsiveness
+<p align='center'>We have clone of KFC ecommerce application. The clone explain each menu item just like real site.
+To maintain the add to cart functionality, I have used reducer to manage the state. </p>
+
+<ul
+ <li > Features: </li>
+  <li> Sign-in based on OTP </li>
+  <li> Show food based on Menu categories  </li>
+   <li >  Dynamic add to cart  </li>
+   <li>  Checkout payment  </li>
+  <li>  Add more item  </li>
+    <li>  Responsiveness  </li>
+   </ul>
 
 ## Tech Stack: 
 CSS | JavaScript | React js | Redux js | Chakra UI | Material UI 
@@ -20,18 +24,18 @@ https://ecommerce-react-redux-rohitd100.vercel.app/
 ### User can visit this page without login
 <img src="https://github.com/RohitD100/KFC-clone/blob/main/KFC_home.png"/>
 
-# Home page
-### This is home page of different category
-<img src="https://github.com/pandit0305/kfc-clone-app/blob/main/home_page.png"/>
-
-# Menu page 
-### Here user can find menu having different categories and also add these item in cart
-<img src="https://github.com/pandit0305/kfc-clone-app/blob/main/menu_page.png"/>
+# Special Food page
+### This is Foods of different category
+<img src="https://github.com/RohitD100/KFC-clone/blob/main/KFC_specialFood.png"/>
 
 # Login Page 
 ### User can login with mobile no and receive otp on that number, But this functionality will work on localhost. This functionality is created with the help of firebase.
-<img src="https://github.com/pandit0305/kfc-clone-app/blob/main/login_page.png"/>
+<img src="https://github.com/RohitD100/KFC-clone/blob/main/KFC_login.png"/>
 
-# Add to cart page
-### In this section user can see added items and also able to increase the number of items that they want to order.
-<img src="https://github.com/pandit0305/kfc-clone-app/blob/main/addtocart_page.png"/>
+# Dynamic Cart page 
+### This is a Mini Cart Page
+<img src="https://github.com/RohitD100/KFC-clone/blob/main/KFC_dynamicCart.png"/>
+
+# Cart page 
+### This is Cart Page
+<img src="https://github.com/RohitD100/KFC-clone/blob/main/KFC_cart.png"/>
