@@ -16,9 +16,9 @@ CSS | JavaScript | React js | Redux js | Chakra UI | Material UI
 Vercel link
 https://ecommerce-react-redux-rohitd100.vercel.app/
 
-# Landing Page
+## Home Page 
 ### User can visit this page without login
-<img src="https://github.com/pandit0305/kfc-clone-app/blob/main/landing_page.png"/>
+<img src="https://github.com/RohitD100/KFC-clone/blob/main/KFC_home.png"/>
 
 # Home page
 ### This is home page of different category
