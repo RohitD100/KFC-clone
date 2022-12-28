@@ -1,16 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
-import AllRoutes from './components/AllRoutes';
-import { Footer } from './components/Footer'
+import AllRouters from './AllRouters/AllRouters';
+
+
 function App() {
   return (
     <>
-      <Header />
-      <AllRoutes />
-      <Footer />
+     <AllRouters/>
     </>
   );
 }
+
 export default App;

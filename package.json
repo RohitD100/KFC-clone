@@ -1,28 +1,28 @@
 {
-  "name": "addtocart",
+  "homepage": ".",
+  "name": "kfc-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@chakra-ui/react": "^2.3.6",
+    "@chakra-ui/icons": "^2.0.10",
+    "@chakra-ui/react": "^2.3.4",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
-    "@mui/icons-material": "^5.5.1",
-    "@mui/material": "^5.10.10",
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.1.3",
-    "framer-motion": "^7.6.1",
-    "gapi-script": "^1.2.0",
-    "react": "^17.0.2",
-    "react-bootstrap": "^2.2.1",
-    "react-dom": "^17.0.2",
-    "react-google-login": "^5.2.2",
-    "react-redux": "^7.2.6",
-    "react-router-dom": "^6.2.2",
-    "react-scripts": "5.0.0",
-    "react-transition-group": "^4.4.5",
-    "redux": "^4.1.2",
+    "axios": "^0.27.2",
+    "firebase": "^9.10.0",
+    "framer-motion": "^7.4.0",
+    "homepage": ".",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.8",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -48,5 +48,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@iconify/react": "^4.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
